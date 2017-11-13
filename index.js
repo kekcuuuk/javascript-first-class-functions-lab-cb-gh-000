@@ -10,3 +10,12 @@ function createMultiplier(y) {
 
 doubler = createMultiplier(2);
 tripler = createMultiplier(3);
+
+// ex3
+function multiplier(x, y) {
+	return x*y;
+}
+
+
+doublerWithBind = createMultiplierBonus.bind(null, null, 2);
+triplerWithBind = createMultiplierBonus.bind(null, null, 3);

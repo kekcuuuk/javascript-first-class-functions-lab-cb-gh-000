@@ -5,7 +5,7 @@ function countdown(callback) {
 
 // ex2
 function createMultiplier(y) {
-	return x => Math.pow(x, y);
+	return x => x*y;
 }
 
 doubler = createMultiplier(2);

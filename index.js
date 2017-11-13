@@ -12,7 +12,7 @@ doubler = createMultiplier(2);
 tripler = createMultiplier(3);
 
 // ex3
-function createMultiplierBonus(x, y) {
+function multiplier(x, y) {
 	return Math.pow(x, y);
 }
 

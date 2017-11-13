@@ -10,5 +10,3 @@ function createMultiplier(y) {
 
 doubler = createMultiplier(2);
 tripler = createMultiplier(3);
-
-

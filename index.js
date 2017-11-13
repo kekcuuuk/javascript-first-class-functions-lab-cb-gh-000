@@ -12,10 +12,10 @@ doubler = createMultiplier(2);
 tripler = createMultiplier(3);
 
 // ex3
-function createMultiplier(x, y) {
+function createMultiplierBonus(x, y) {
 	return Math.pow(x, y);
 }
 
 
-doubler = createMultiplier.bind(null, null, 2);
-tripler = createMultiplier.bind(null, null, 3);
+doublerWithBind = createMultiplierBonus.bind(null, null, 2);
+triplerWithBind = createMultiplierBonus.bind(null, null, 3);

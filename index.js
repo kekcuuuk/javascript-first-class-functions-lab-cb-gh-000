@@ -17,5 +17,5 @@ function multiplier(x, y) {
 }
 
 
-doublerWithBind = createMultiplierBonus.bind(null, null, 2);
-triplerWithBind = createMultiplierBonus.bind(null, null, 3);
+doublerWithBind = multiplier.bind(null, null, 2);
+triplerWithBind = multiplier.bind(null, null, 3);
